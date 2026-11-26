@@ -1,5 +1,24 @@
-# Object file
-*.o
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+build/
+dist/
 
-# Ada Library Information
-*.ali
+# Записи матчей и результаты локальных экспериментов
+results/
+*.log
+
+# Рабочие среды
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
